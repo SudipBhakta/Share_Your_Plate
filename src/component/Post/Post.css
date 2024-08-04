@@ -1,0 +1,91 @@
+.publicPost{
+    display:block;
+    min-height: 100vh;
+    background-color: rgb(197, 217, 235);
+    width: 60%;
+    float: left;
+    /* justify-content: center; */
+    border-right: slateblue;
+}
+.yourPost{
+   
+    background-color:white;
+    width: 40%;
+    min-height: 100vh;
+    float: right;
+}
+.publicText{
+    font-size: 3vw;
+    font-weight: 600;
+    width: 100%;
+    /* background:white; */
+    padding:5px;
+    padding-left: 10px;
+    margin-left: 1%;
+}
+.post{
+    display: block;
+    width: 96%;
+    background: white;
+    margin-left: 2%;
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 20vh;
+    border-radius: 3px;
+    outline-style: solid;
+    outline-color: black;
+    outline: 2px;
+}
+.post h5{
+    font-size: 20px;
+    
+}
+.post h6{
+    font-size: 15px;
+    color: rgb(80, 80, 255);
+}
+.postContent{
+    display: block;
+    margin: 10px;
+}
+.post2{
+    display: block;
+    width: 96%;
+    background: rgb(214, 224, 244);
+    margin-left: 2%;
+    margin-top: 10px;
+    padding: 10px;
+    min-height: 20vh;
+    border-radius: 3px;
+    outline-style: solid;
+    outline-color: black;
+    outline: 2px;
+}
+.YourInput{
+    width: 96%;
+    min-height: 90px;
+border: none;
+box-shadow: 0px 0px 10px rgba(67, 65, 65, .4);
+font-size: 1.2rem;
+outline: none;
+padding: 5px;
+margin: 10px;
+border: 2px solid transparent;
+border-radius: 3px;
+}
+.btn4{
+    position: relative;
+    margin-left: 10px;
+    top: 1x;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(67, 65, 65, .4);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    width: 30%;
+    font-size: 16px;
+    color: purple;
+    cursor: pointer;
+    font-weight: 500;
+}
